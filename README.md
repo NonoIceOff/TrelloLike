@@ -1,9 +1,4 @@
-## Acces Site
+### Ajoutez la connexion à la db sur src/utils/database.php
 
-http://localhost:8088
-
-## Acces DB
-
-http://localhost:8086
-
-
+### La BDD doit être sous la forme suivante :
+(en cours)
