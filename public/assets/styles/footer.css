@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../font/Lexend-Medium.ttf');
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+
+.footer {
+  background-color: #507019;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  max-width: 300px;
+}
+
+.footer-title {
+  color: limegreen;
+  margin-bottom: 15px;
+}
+
+.footer-subtitle {
+  color: limegreen;
+  margin-bottom: 5px;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.footer-buttons button {
+  background-color: limegreen;
+  padding: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.copyright {
+  font-size: 16px;
+  margin: 0;
+}
+
+

@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "Lexend"; /*a name to be used later*/
+  src: url('../font/Lexend-Medium.ttf');
+}
+
+body {
+  font-family: "Lexend";
+}
+
+.presentation-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("../images/comportement-réunion-entreprise.jpg") center/cover;
+}
+
+.presentation-content {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 120px 240px rgba(0, 0, 0, 0.5); /* Ombre pour la boîte de présentation */
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1); /* Ombre pour le texte */
+  }
+  
+  
+  
+.presentation-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.presentation-content p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.btn-learn-more {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: limegreen;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-learn-more:hover {
+  background-color: darkgreen;
+}
+
+/* Ajoutez ce CSS à votre fichier assets/styles/index.css ou créez un nouveau fichier CSS */
+
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  padding: 50px 0; /* Ajustez la marge intérieure selon vos besoins */
+}
+
+.feature {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature:hover {
+  transform: scale(1.05);
+}
+
+.feature h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: #666;
+}
+
+/* Nouveau fichier CSS pour la page de connexion */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend", sans-serif;
+  background-color: #f4f4f4;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("../images/comportement-réunion-entreprise.jpg") center/cover
+    no-repeat fixed; /* Remplacez par le chemin de votre image */
+}
+
+.login-form {
+  max-width: 400px;
+  width: 100%;
+  margin-top: 50px; /* Ajustez la marge pour un meilleur espacement du header */
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Fond avec une légère transparence */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.login-form h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.login-form input {
+  font-family: "Lexend";
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.login-form input:focus {
+  border-color: #507019;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #507019;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #74a226;
+}
+
+.login-form button:active {
+  transform: translateY(2px);
+}
+
+.register_button {
+  color: white;
+  font-weight: bolder;
+  background-color: #507019;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.register_button:hover {
+  background-color: #74a226;
+}
+
+span {
+  color: red;
+}
